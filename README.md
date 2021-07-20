@@ -1,4 +1,4 @@
-# schoolmanagement
+# School Management
 Install docker on desktop
 
 Steps to install mysql on docker
@@ -26,7 +26,7 @@ Steps to install mysql on docker
 
 5. Mysql is successfully configured to run on docker container myschool.
 
-steps to configure project:
+Steps to configure project:
 ---------------------------
 
 1. Ensure your mysql container is up: 
