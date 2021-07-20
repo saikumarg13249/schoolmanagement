@@ -234,14 +234,14 @@ public class ManageStudentsAndCoursesServiceImpl implements ManageStudentsAndCou
 			}else {
 				courseAllowed = false;
 			}
-		}else if(student.getCourses()==null) {
+		}else if(student.getCourses()==null || student.getCourses().isEmpty()) {
 			courseAllowed = true;
 		}
 		int maxStudentsAllowed  =0;
 		if(course.getStudents()!=null && !course.getStudents().isEmpty()) {
 			 maxStudentsAllowed =  course.getStudents().size();
 		}
-		if(course.getStudents()==null) {
+		if(course.getStudents()==null || course.getStudents().isEmpty()) {
 			courseAllowed = true;
 		}
 		if(maxStudentsAllowed < Constants.MAX_STUDENTS_FOR_COURSE) {
