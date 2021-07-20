@@ -3,11 +3,12 @@ Install docker on desktop
 
 Steps to install mysql on docker
 
-1.create docker image using command below
+1. create docker image using command below
 
     docker pull mysql
 
-2.   docker images 
+2. docker images
+ 
     ![image](https://user-images.githubusercontent.com/72868475/126320401-b8117700-97ef-453a-812c-d8527b34e7b0.png)
 
 3. run docker image mysql already created.
@@ -26,7 +27,9 @@ docker container ls
 
 steps to configure project:
 
-1. Ensure your mysql container is up: docker container ls
+1. Ensure your mysql container is up: 
+
+ docker container ls
 
   ![image](https://user-images.githubusercontent.com/72868475/126322154-19f30a61-fa5a-46d4-828e-f68f0ad9aff2.png)
 
@@ -48,7 +51,7 @@ steps to configure project:
 
 6. update your application.properties of jdbc url in your project resources file 
                              
-jdbc:mysql://docker-mysql-containername:3306/schema-name.
+     jdbc:mysql://docker-mysql-containername:3306/schema-name.
 
 7.  In my case it is:
 
