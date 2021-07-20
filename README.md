@@ -71,7 +71,7 @@ Steps to configure project:
 
    ![image](https://user-images.githubusercontent.com/72868475/126322046-114b17c1-0486-4cf5-bed3-8d4cba936c0c.png)
 
-11. You need to link your project docker container with mysql and run project docker image.
+11. You need to link your project docker container with mysql container and run project docker image.
 
     docker run -p 8080:8080 --link myschool:mysql -t saikumar4231/smboot
 
