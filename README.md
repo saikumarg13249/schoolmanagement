@@ -80,3 +80,13 @@ Steps to configure project:
 12. You should have by now up and running you project docker running with mysql container.
 
     ![image](https://user-images.githubusercontent.com/72868475/126322899-18aa7350-c7d4-4161-a453-543d6c0ad1a7.png) 
+    
+School Management API Testing:
+------------------------------
+1. Once deployment successful please use url below with swagger API testing
+
+   # http://localhost:8080/swagger-ui.html#/
+
+
+2. ![image](https://user-images.githubusercontent.com/72868475/126344987-7ff15d8e-05f2-4981-b6dd-e0c7e6840684.png)
+
