@@ -17,7 +17,7 @@ jobs:
           git config --local user.name "saikumarg13249"
     - name: Merge bugfix to feature
       run: |
-        git branch
+        git fetch
         git checkout dev
         git merge --squash bugfix
         git commit
