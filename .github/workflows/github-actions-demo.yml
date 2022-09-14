@@ -2,6 +2,7 @@ name: PRs to feature
 on: 
   pull_request:
     branches: [feature]
+    types: [closed]
 jobs:
   merge-master-back-to-dev:
     if: github.event.pull_request.merged == true
