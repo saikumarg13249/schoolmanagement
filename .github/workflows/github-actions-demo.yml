@@ -19,7 +19,7 @@ jobs:
       run: |
         git fetch
         git checkout dev
-        git merge --squash bugfix
+        git merge --squash origin/bugfix
         git commit
-#check3
+#check4
 
