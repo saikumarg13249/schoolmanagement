@@ -18,3 +18,4 @@ jobs:
         git checkout feature
         git merge --squash bugfix
         git commit
+#check
