@@ -2,6 +2,7 @@ name: PRs to feature
 on: 
   pull_request:
     branches: [main]
+
 jobs:
   merge-master-back-to-dev:
     if: github.event.pull_request.merged == true
@@ -18,4 +19,5 @@ jobs:
         git checkout feature
         git merge --squash bugfix
         git commit
-#check
+#check2
+
