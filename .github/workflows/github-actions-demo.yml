@@ -19,7 +19,8 @@ jobs:
       run: |
         git fetch
         git checkout dev
+        git pull
         git merge --squash origin/bugfix
-        git commit
-#check4
+        git push
+#check5
 
